@@ -7,7 +7,7 @@ struct Node{
     struct Node* next;
     char* name;
     double value;
-    int flag
+    int flag;
 };
 
 int errorflag;
