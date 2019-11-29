@@ -1,7 +1,0 @@
-SET p to 10;
-SET q to 20;
-WHILE < p q DO
-    SET p to * p 2;
-ENDWHILE
-PRINT p;
-PRINT q;
