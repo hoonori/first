@@ -1,0 +1,12 @@
+   FUNC g(a, b) {
+   SET r to * a b;
+   RETURN r; }
+   FUNC f(p, q) {
+       SET x to + p q;
+   SET y to - p q;
+       RETURN g(x, y);
+   }
+   SET x to 10;
+   SET y to f(3, 2);
+   PRINT x;
+   PRINT y;
